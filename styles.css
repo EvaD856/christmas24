@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Grenze+Gotisch:wght@100..900&family=Mountains+of+Christmas:wght@400;700&family=Rubik+Wet+Paint&display=swap');
+/** 
+font-family: "Rubik Wet Paint", serif;
+font-family: "Eater", serif;
+font-family: "Grenze Gotisch", serif;
+font-family: "Mountains of Christmas", serif;
+**/
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+.container{
+    display: grid;
+}
+
+.one {
+    min-height:250px;
+    background-image:url(gift-backgroun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+
+}
+
+.one h1 {
+    font-family: "Eater", serif;
+    font-size: 3em;
+   text-shadow: 4px 4px 5px black;
+    text-align:center;
+    margin-top: 1.5em;
+    background-color: rgba(223, 19, 19, 0.684);
+    color:white;
+
+}
+
+/*.two {
+    min-height: 90px;
+}
+
+
+.two img{
+    height:300px;
+    width:400px;
+    padding-left:20%;
+}
+*/
+.three {
+    background-color:rgb(9, 77, 47);
+    min-height: 300x;
+}
+
+.three p{
+    font-size:2em;
+    padding-right:30%;
+}
+/*
+.three img{
+    height:100%; 
+}
+*/
+
+.four {
+    min-height:250px;
+    background-image:url(tree2-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.four h2{
+    color:black;
+    font-size:2.5em;
+}
+
+.five {
+    background-color: #f903;
+    min-height: 150px;
+}
+
+.six{
+    background-color: #807;
+    min-height: 150px;
+}
+
+.seven{
+    background-color: #f40;
+    min-height:150px;
+}
+
+img{
+    height:75%;
+    width:50%;
+}
+
+/* Add Card CSS Here */
+
+.cards {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width:325px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0,3);
+    overflow: hidden; 
+    margin:10px;
+    transition: 2s ease;
+    margin-bottom: 5em;
+}
+
+.card:hover {
+    background-color:green;
+    color:white;
+}
+
+.card-content{
+    background-color:#0a6d2d;
+}
+
+.card img {
+    width: 100%;
+    height: 225px;
+    object-fit:cover;
+}
+
+.card-content {
+    padding:2em;
+}
+
+.card-content h2{
+    font-size: 1.8em;
+    margin-bottom: 1.5em;
+    color:black;
+    animation-name:halloween;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+}
+
+.card-content p{
+    font-size: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+.card-button{
+    display: inline-block;
+    background-color: #00a8ff;
+    color: #fff;
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+    text-decoration:none;
+    transition: 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0096e6;
+}
+
+@keyframes halloween {
+    0%   {color: red;}
+    15% {color:orange;}
+    25%  {color: yellow;}
+    50%  {color: green;}
+    75% {color:blue}
+    90% {color: purple;}
+      100%{color:darkmagenta;}
+}
