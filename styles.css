@@ -121,7 +121,7 @@ img{
 }
 
 .card:hover {
-    background-color:green;
+    
     color:white;
 }
 
@@ -155,7 +155,7 @@ img{
 
 .card-button{
     display: inline-block;
-    background-color: #00a8ff;
+    background-color: #e60032;
     color: #fff;
     border:none;
     padding: 10px 20px;
@@ -165,7 +165,9 @@ img{
 }
 
 .card-button:hover {
-    background-color: #0096e6;
+    animation-name:halloweenbg;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes halloween {
@@ -175,5 +177,15 @@ img{
     50%  {color: green;}
     75% {color:blue}
     90% {color: purple;}
-      100%{color:darkmagenta;}
+    100%{color:darkmagenta;}
+}
+
+@keyframes halloweenbg {
+    0%   {background-color: red;}
+    15% {background-color:orange;}
+    25%  {background-color: yellow;}
+    50%  {background-color: green;}
+    75% {background-color:blue}
+    90% {background-color: purple;}
+    100%{background-color:darkmagenta;}
 }
