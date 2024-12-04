@@ -137,6 +137,8 @@ img{
 
 .card-content {
     padding:2em;
+    font-family: "Mountains of Christmas", serif;
+
 }
 
 .card-content h2{
@@ -146,11 +148,15 @@ img{
     animation-name:halloween;
     animation-duration:20s;
     animation-iteration-count: infinite;
+    font-family: "Mountains of Christmas", serif;
+
 }
 
 .card-content p{
     font-size: 1.3em;
     margin-bottom: 1.3em;
+    font-family: "Mountains of Christmas", serif;
+
 }
 
 .card-button{
@@ -162,6 +168,8 @@ img{
     border-radius:5px;
     text-decoration:none;
     transition: 0.3s ease;
+    font-family: "Mountains of Christmas", serif;
+
 }
 
 .card-button:hover {
