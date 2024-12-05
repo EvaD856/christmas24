@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eva's Christmas Project 2024</title>
     <link rel="stylesheet" href="styles.css">
+	<script src="dropdown.js"></script>
 
 </head>
 <body>
@@ -19,75 +20,83 @@
         </div>
     -->
         <div class="three">
-            3
+           <!-- 3 -->
         </div>
     
         <div class="four">
-            <h2>4</h2>
+            <!--<h2>4</h2> -->
         
             <!-- This Section holds media cards -->
              <div class="cards">
                 <!-- This is a Media Card -->
                 <article class="card">
-                    <img src="microphone.jpg" alt="placeholder">
+                    <img src="microphone.jpg" alt="A Microphone for PC">
                     <div class="card-content">
                         <h2>A Microphone</h2>
                         <p>A microphone because my headset microphone sux</p>
-                        <a href="" class="card-button">Read More</a>
-                    </div>
+                        <!-- <a href="" class="card-button">Read More</a> -->
+                    </div><br>
                 </article>
 
                 <!--This is a Media Card -->
                 <article class="card">
-                <img src="placeholder.jpg" alt="placeholder">
+                <img src="money.jpg" alt="Money!">
                 <div class="card-content">
-                    <h2>Bone</h2>
-                    <p>A bone, a plastic one. It'd be weird if it was a real one. You could buy to give out or decorate with.</p>
-                    <a href="#" class="card-button">Read More</a>
-                </div>
+                    <h2>Money</h2>
+                    <p>Extra Cash</p><br>
+                    <!--<a href="#" class="card-button">Read More</a>-->
+                </div><br>
             </article>
             
             <!-- This is a Media Card -->
             <article class="card">
-                <img src="placeholder.jpg" alt="placeholder">
+                <img src="deskGift.jpg" alt="A New Deskr">
                 <div class="card-content">
-                    <h2>More Candy</h2>
-                    <p>Two packs of random candy canes and (probably) chemically tasting lolipops. Yum.</p>
-                    <a href="#" class="card-button">Read More</a>
-                </div>
+                    <h2>A Desk</h2>
+                    <p>A new desk to replace my crummy years old one</p>
+                    <!--<a href="#" class="card-button">Read More</a> -->
+                </div><br>
             </article>
 
             <!-- This is a Media Card -->
             <article class="card">
-                <img src="placeholder.jpg" alt="a witch's hat">
+                <img src="giftCard.png" alt="gift cards">
                 <div class="card-content">
-                    <h2>A Witch's Hat</h2>
-                    <p>A basic witch's hat if you've got nothing else or into being a witch this year, for a costume.</p>
-                    <a href="#" class="card-button">Read More</a>
+                    <h2>Gift Cards</h2>
+                    <p>Alternative money to specific stores.</p>
+                    <div class="dropdown">
+						<button onclick="myFunction()" class="dropbtn">Which Stores?</button>
+						<div id ="myDropdown" class ="dropdown-content">
+							<a href="#">GameStop</a>
+							<a href="#">Amazon</a>
+							<a href="#">Walmart</a>
+					</div>
                 </div>
+				</div>
+
             </article>
 
             <!-- This is a Media Card -->
             <article class="card">
-            <img src="placeholder.jpg" alt="scarecrow">
+            <img src="powercord.jpg" alt="power cord for computer">
             <div class="card-content">
-                <h2>A Scarecrow</h2>
-                <p>A scarecrow. Couldn't tell you if it's candy or a cartoony decoration. Buy it and find out.</p>
-                <a href="#" class="card-button">Read More</a>
+                <h2>Power Cord</h2>
+                <p>So I can finally set up my second monitor</p>
+                <!--<a href="#" class="card-button">Read More</a>-->
             </div>
         </article>
         
         <!-- This is a Media Card -->
         <article class="card">
-            <img src="placeholder.jpg" alt="skull & bones + candles">
+            <img src="funkopop1.jpg" alt="Funko Pops">
             <div class="card-content">
-                <h2>Bundle</h2>
-                <p>Get the bundle of some basic candles and a skull doorplate. Of course you can't buy seperately.</p>
-                <a href="#" class="card-button">Read More</a>
+                <h2>Funko Pops</h2>
+                <p>Something that I collect.</p>
+               <!--Put in drop down button with funko pops <a href="#" class="card-button">Which Ones?</a> -->
             </div>
         </article>
              </div>
-             <!-- End o Media Card Section --> #
+             <!-- End of Media Card Section --> #
     
 </body>
 </html>
