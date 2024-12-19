@@ -61,7 +61,264 @@ header ul{
 	padding-right:1%;
 	border-radius:8%;
 	font-family: "Eater", serif;
-	font-size:1em;
+}
+
+
+
+/*Grid Stuff */
+.container{
+    display: grid;
+}
+
+.one {
+    min-height:250px;
+    background-image:url(images/gift-backgroun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+
+}
+
+.one h1 {
+    font-family: "Eater", serif;
+    font-size: 3em;
+   text-shadow: 4px 4px 5px black;
+    text-align:center;
+    margin-top: 1.5em;
+    background-color: rgba(223, 19, 19, 0.684);
+    color:white;
+
+}
+
+/*.two {
+    min-height: 90px;
+}
+
+
+.two img{
+    height:300px;
+    width:400px;
+    padding-left:20%;
+}
+*/
+.three {
+    background-color:rgb(9, 77, 47);
+    min-height: 30px;
+}
+
+.three p{
+    font-size:2em;
+    padding-right:30%;
+}
+/*
+.three img{
+    height:100%; 
+}
+*/
+
+.four {
+    min-height:250px;
+    background-image:url("images/dark-green-739780_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.four h2{
+    color:black;
+    font-size:2.5em;
+}
+
+.five {
+    background-color:rgb(9, 77, 47);
+    min-height: 100px;
+	font-size:2em;
+	color:red;
+	text-align: center;
+	-webkit-animation: glow 3s ease-in-out infinite alternate;
+	-moz-animation: glow 3s ease-in-out infinite alternate;
+	animation: glow 3s ease-in-out infinite alternate;
+	padding-top:2%;
+	font-family: "Eater", serif;
+
+}
+
+.six{
+    background-color:rgb(9, 77, 47);
+    min-height: 30px;
+}
+
+.seven{
+    background-color: #f40;
+    min-height:150px;
+}
+
+img{
+    height:75%;
+    width:50%;
+}
+
+/* Add Card CSS Here */
+
+.cards {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width:350px;
+    background-color:#0a6d2d;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0,3);
+    overflow:visible; 
+    margin:10px;
+    transition: 2s ease;
+    margin-bottom: 5em;
+}
+
+.card:hover {
+    color:white;
+}
+
+.card-content{
+    background-color:#0a6d2d;
+	font-family: "Mountains of Christmas", serif;
+}
+
+.card img {
+    width: 100%;
+    height: 225px;
+    object-fit:cover;
+}
+
+.card-content {
+    padding:2em;
+	font-family: "Mountains of Christmas", serif;
+
+}
+
+.card-content h2{
+    font-size: 1.8em;
+    margin-bottom: 1.5em;
+    color:black;
+    animation-name:rainbow;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+	font-family: "Mountains of Christmas", serif;
+
+}
+
+.card-content p{
+    font-size: 1.3em;
+    margin-bottom: 1.3em;
+	font-family: "Mountains of Christmas", serif;
+
+}
+
+.card-button{
+	background-color:rgba(218,39,42,1.00);
+	border-radius:5px;
+	padding:5%;
+	text-decoration:none;
+	color:black;
+}
+
+.card-button:hover{
+	background-color:darkred;
+	color:white;
+}
+
+/* Text color animation */
+
+@keyframes rainbow {
+    0%   {color: red;}
+    15% {color:orange;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75% {color:blue}
+    90% {color: purple;}
+    100%{color:darkmagenta;}
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 8px #fff, 0 0 20px #fff, 0 0 30px #ffe933, 0 0 40px #ffdd33, 0 0 50px #ffe933 0 0 60px #ffe933, 0 0 70px #ffe933;
+  }
+  to {
+    text-shadow: 0 0 15px #fff, 0 0 20px #fff685, 0 0 25px #fff685, 0 0 30px #fff685, 0 0 35px #fff685, 0 0 40px #fff685, 0 0 45px #fff685;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Grenze+Gotisch:wght@100..900&family=Mountains+of+Christmas:wght@400;700&family=Rubik+Wet+Paint&display=swap');
+/** 
+font-family: "Rubik Wet Paint", serif;
+font-family: "Eater", serif;
+font-family: "Grenze Gotisch", serif;
+font-family: "Mountains of Christmas", serif;
+**/
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+/* Flexbox Navigation */
+header {
+	background-color:rgba(187,50,52,1.00);
+}
+
+.main-nav li{
+	display:inline;
+	text-align:center;
+}
+.main-nav li a{
+	text-decoration: none;
+	color:black;
+	text-align:center;
+	background-color:white;
+	padding-left:1%;
+	padding-right:1%;
+	border-radius:8%;
+	font-family: "Eater", serif;
+}
+
+.main-nav li a:hover{
+	text-decoration: none;
+	color:black;
+	text-align:center;
+	background-color:lightgray;
+	padding-left:1%;
+	padding-right:1%;
+	border-radius:8%;
+	font-family: "Eater", serif;
+}
+
+header ul{
+	list-style:none;
+	padding:1%
+}
+
+.bottom-nav li{
+	display:inline;
+	text-align:center;
+}
+.bottom-nav li a{
+	text-decoration: none;
+	color:black;
+	text-align:center;
+	padding-left:1%;
+	padding-right:1%;
+	border-radius:8%;
+	font-family: "Eater", serif;
 }
 
 
